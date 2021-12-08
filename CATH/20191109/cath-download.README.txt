@@ -1,0 +1,346 @@
+
+
+CATH Database Downloads
+=======================
+
+## What is CATH?
+
+The CATH database is a free, publicly available online resource that provides 
+information on the evolutionary relationships of protein domains. It was 
+created in the mid-1990s by Professor Christine Orengo and colleagues, and 
+continues to be developed by the Orengo group at University College London.
+
+## How is CATH-Gene3D created?
+
+Experimentally-determined protein three-dimensional structures are obtained from
+the Protein Data Bank and split into their consecutive polypeptide chains, where
+applicable. Protein domains are identified within these chains using a mixture
+of automatic methods and manual curation. The domains are then classified within
+the CATH structural hierarchy: at the Class \(C\) level, domains are assigned
+according to their secondary structure content, i.e. all alpha, all beta, a
+mixture of alpha and beta, or little secondary structure; at the Architecture
+(A) level, information on the secondary structure arrangement in
+three-dimensional space is used for assignment; at the Topology/fold (T) level,
+information on how the secondary structure elements are connected and arranged
+is used; assignments are made to the Homologous superfamily (H) level if there
+is good evidence that the domains are related by evolution, i.e. they are
+homologous.
+
+Additional sequence data for domains with no experimentally determined
+structures are provided by our sister resource, Gene3D, which are used to
+populate the homologous superfamilies. Protein sequences from UniProtKB and
+Ensembl are scanned against CATH HMMs to predict domain sequence boundaries and
+make homologous superfamily assignments.
+
+## Contact us
+
+If you have any comments/suggestions/criticisms, please let us know:
+
+http://www.cathdb.info/support/contact
+
+## CATH Releases
+
+We aim to provide official releases of the CATH classification every 12 months.
+This release process is important because is allows us to provide internal
+validation, extra annotations and analysis. However, it can mean that there is a
+time delay between new structures appearing in the PDB and the latest official 
+CATH release,
+
+In order to address this issue: CATH-B provides a limited amount of information
+to the very latest domain annotations (e.g. domain boundaries and superfamily
+classifications).
+
+The latest release of CATH-Gene3D (v4.1) was released in July 2016 and 
+consists of:
+
+* 500,238    structural protein domain entries
+* 151,013,797 non-structural protein domain entries
+* 6,631       homologous superfamily entries
+* 212,872      functional family entries
+
+All CATH data can be downloaded via the FTP site:
+
+    ftp://ftp.biochem.ucl.ac.uk/pub/cath
+
+or via the download section of the CATH website:
+
+    http://www.cathdb.info/download
+    
+The root directory contains this ```README```, a second README detailing known 
+differences in file content across the different versions 
+(```README-known-version-differences.txt```), and two
+immediate subdirectories: ```releases``` and ```supplementary-materials```.
+Data within these directories are described below.
+
+## Accessing data files through the REST API
+
+The individual PDB files for domains, chains and whole proteins can be downloaded 
+through the REST API.
+
+### Accessing PDB files for a particular domain/chain/PDB id
+
+To access these files for a particular domain/chain/PDB id, these files can 
+be accessed via the following URLs:
+
+```http://www.cathdb.info/version/v4_3_0/api/rest/id/<domain_id>.pdb```
+```http://www.cathdb.info/version/v4_3_0/api/rest/id/<chain_id>.pdb```
+```http://www.cathdb.info/version/v4_3_0/api/rest/id/<pdb_id>.pdb```
+
+
+
+### Accessing PDB files for all domains in CATH
+
+To access the files for all domain ids in all superfamilies, first obtain the entire 
+list of domain ids from the latest official version from the file:
+
+```http://download.cathdb.info/cath/releases/all-releases/latest_release/cath-classification-data/cath-domain-list.txt```
+
+Or, to access the files for all domains ids in a particular superfamily, use:
+
+```http://www.cathdb.info/version/v4_3_0/api/rest/cathtree/from_cath_id_to_depth/<superfamily_id>/<depth>```
+
+e.g. list all domains (i.e. CATH hierarchy depth=9 ) in the superfamily 1.10.8.10
+
+```http://www.cathdb.info/version/v4_3_0/api/rest/cathtree/from_cath_id_to_depth/1.10.8.10/9```
+
+For each domain id retrieved, access its PDB file via the following URL:
+
+```http://www.cathdb.info/version/v4_3_0/api/rest/id/<domain_id>.pdb```
+
+
+## Directory Structure
+
+### ```releases/```
+
+This directory contains all of the CATH-Gene3D database releases, from the 
+first to the latest. All previous releases are in 
+```releases/previous-releases/``` and the latest release is in 
+```releases/latest-release/```.
+
+#### ```releases/daily-release/```
+
+This directory provides summary information of protein domains putatively 
+classified in CATH since the last release.
+
+For each date with a CATH-B entry, there should be five files, e.g.:
+
+cath-b-20170519-all.gz
+:   combination of the 'latest release' and 'putative entries' files
+
+cath-b-20170519-latest-release.gz
+:   all domains that were in the latest release of CATH
+
+cath-b-20170519-putative.gz
+:   the domains assigned/rechopped/reassigned in CATH since the latest release
+
+cath-b-20170519-names-all.gz
+:   name description of each node in the CATH hierarchy. A combination of the 
+'latest release' and 'putative entries' files
+
+cath-b-20170519-s35-all.gz
+:   all domain ids in CATH-B with their S35 cluster id and domain boundary 
+information.
+
+**Notes:**
+
+* These are compressed files; once downloaded you should uncompress them with 
+a suitable program (e.g. gunzip) before use.
+* Please note that the 'latest release' and 'putative' files have no domains 
+in common.
+* The first three files use one line per domain and use the following format:
+
+    domain_id status putative_superfamily_id putative_chopping
+
+* The names file follows the file format described in 
+```./README-cath-names-file-format.txt``` (a.k.a. CNF format).
+
+##### ```./archive/```
+
+This subdirectory contains all of the CATH-B files, except the files for the 
+current day.
+
+##### ```./newest/```
+
+This subdirectory contains the five CATH-B files for the current day:
+
+* cath-b-newest-all.gz
+* cath-b-newest-latest-release.gz
+* cath-b-newest-putative.gz
+* cath-b-newest-names-all.gz
+* cath-b-s35-newest.gz
+
+#### ```releases/latest-release/```
+
+This subdirectory contains the latest release of CATH. Please note that these 
+files do not contain a version number.
+
+#### ```releases/all-releases/```
+
+Each subdirectory contains all of the CATH releases and is named 
+according to its version number:
+
+    v2_0
+    v2_4
+    v2_5
+    v2_5_1
+    v2_5_3
+    v2_6_0
+    v3_0_0
+    v3_1_0
+    v3_3_0
+    v3_4_0
+    v3_5_0
+    v4_0_0
+    v4_1_0
+    v4_2_0
+    v4_3_0
+    
+##### ```releases/<release-type>/<version>/cath-classification-data/```
+
+Files within this directory contain data describing the CATH classification.
+
+cath-chain-list-<version>.txt
+: Lists all of the PDB chain IDs in CATH, whether they are chopped into domains 
+or not. For file format description see 
+```./README-cath-list-file-format.txt``` (a.k.a. CLF format).
+
+* e.g. cath-chain-list-v4_3_0.txt
+
+cath-domain-boundaries-*-<version>.txt
+: Description of domain and segment boundaries for domains classified into 
+CATH. For file format description see 
+```./README-domain-boundaries-file-format.txt``` (a.k.a. CDF format).
+
+* e.g. cath-domain-boundaries-v4_3_0.txt
+* e.g. cath-domain-boundaries-seqreschopping-v4_3_0.txt
+
+cath-domain-description-file-<version>.txt
+: Description of each protein domain in CATH (see README.CDDF_FORMAT_2.0 for 
+more details). For file format description see 
+```./README-cath-domain-desc-file-format.txt``` (a.k.a. CDDF format).
+
+* e.g. cath-domain-description-file-v4_3_0.txt
+
+cath-domain-list-<S35|S60|S95|S100|all>-<version>.txt
+: Lists of domains classified into CATH. For file format description see 
+```./README-cath-list-file-format.txt``` (a.k.a. CLF format).
+
+* e.g. cath-domain-list-S35-v4_3_0.txt
+
+cath-domain-pdb-*-<version>.txt
+: Description of each domain PDB classified into CATH.
+
+* e.g. cath-domain-pdb-v4_3_0.tgz
+* e.g. cath-domain-pdb-S35-v4_3_0.tgz
+* These are compressed files; once downloaded you should uncompress them with a 
+suitable program (e.g. gunzip) before use.
+
+cath-names-<version>.txt
+: Name description of each node in the CATH hierarchy, along with an example 
+domain. For file format description see 
+```./README-cath-names-file-format.txt``` (a.k.a. CNF format).
+
+* e.g. cath-names-v4_3_0.txt
+
+cath-superfamily-list-<version>.txt
+: List of all the superfamilies in the CATH hierarchy.
+
+* e.g. cath-superfamily-list-v4_3_0.txt
+
+cath-unclassified-list-<version>.txt
+: List of all unclassified protein chains and domains that are still being 
+processed. For file format description see 
+```./README-cath-list-file-format.txt``` (a.k.a. CLF format).
+
+* e.g. cath-unclassified-list-v4_3_0.txt
+
+
+##### ```releases/<release-type>/<version>/non-redundant-data-sets/```
+
+The non-redundant data sets contain a non-redundant subset of CATH domains that:
+* have no pair of domains (according to BLAST) with >= 20 or 40% sequence 
+identity (depending on the data set chosen), over 60% overlap (over the longer 
+sequence
+* is as big as we could make it otherwise.
+
+**Files**
+
+cath-dataset-nonredundant-S[20|40]-v4_1_0.atom.fa
+: The ATOM sequences of the domains in the dataset (which only contain residues 
+that have ATOM records in the PDB file)
+
+cath-dataset-nonredundant-S[20|40]-v4_3_0.fa
+: The sequences of the domains in the dataset
+
+cath-dataset-nonredundant-S[20|40]-v4_3_0.list
+: A list of the domains in the dataset; one domain ID per line
+
+cath-dataset-nonredundant-S[20|40]-v4_3_0.pdb.tgz
+: (A gzipped tar file containing) the PDB files of the domains in the data set
+
+**Method of Construction**
+
+The sequence comparisons are performed with an all-against-all BLAST of our
+domain sequences. We then use these results to identify any links with:
+ * \>= 40% sequence identity                ( ie pident \>= 40 ) and
+ * \>= 60% overlap over the longer sequence ( ie 100.0 * length / max(slen, 
+qlen) \>= 60 )
+
+We use this to form a list of domains that contains no pair of linked entries. 
+In an effort to make the list as large as possible, we build the list by 
+iteratively choosing each domain to add to the list, ensuring that a domain is 
+only added if it has as few linked neighbours as any other domain. This means 
+the algorithm should nibble as many edges off a cluster as possible, rather 
+than taking a small number of domains at the cluster's centre.
+
+##### ```releases/<release-type>/<version>/sequence-data/```
+
+This directory contains protein domain sequence-based data.
+
+cath-domain-seqs-*-<version>.fa
+: Sequences for each CATH domain.
+
+* e.g. cath-domain-seqs-S35-v4_3_0.fa
+
+Hidden Markov model (HMMs) libraries are provided for the S35 rep sequence 
+clusters and the functional families (FunFams). A HMM is generated for each S35 
+sequence cluster and for each functional family using ```hmmbuild``` from the 
+HMMER3 software package. All of the S35 sequence cluster HMMs and functional 
+family HMMs are concatenated to create these two HMM library files:
+
+* cath-S35-<version>-hmm3.lib.gz
+* funfam-hmm3-<version>.lib.gz
+
+These are compressed files; once downloaded you should uncompress them with a 
+suitable program (e.g. gunzip) before use. The program ```hmmpress``` should 
+then be run on each of these files to construct binary compressed data files.
+
+
+###### ```./sequence-by-superfamily/```
+
+cath-superfamily-seqs-<superfamily>-<version>.fa
+: Sequences for each CATH superfamily in FASTA format. The files have this 
+format:
+
+* e.g. cath-superfamily-seqs-1.10.10.10-v4_3_0.fa
+
+###### ```./supplementary-files/```
+
+This directory contains any supplementary files that are associated with a 
+particular release.
+
+### ```supplementary-materials/```
+
+This directory contains supplementary material for published work from the 
+group. Each subdirectory
+represents a different publication.
+
+#### ```./2015_nar_cath-funfhmmer-web-server/```
+
+* FunFHMMER-web-server-supplementary-table.xls
+
+#### 
+```./2016_ploscompbiol_functionally-classifying-and-characterising-serine-beta-lactamases/```
+
+* 151-types-uniprot-cath-gene3d.dat
+* SSPA-mutant-positions-extended-spectrum-resistance.dat

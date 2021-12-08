@@ -1,0 +1,101 @@
+Target,Length,Domain_num,identity_dist_category,identity_quality_category,positive_dist_category,positive_quality_category,coverage_dist_category,Num models,mean GDT_TS,max GDT_TS,med GDT_TS,min GDT_TS,var GDT_TS,std GDT_TS
+1FHU_A,320,2,top,High,top,High,the others,134,0.525,0.981,0.498,0.404,0.010,0.099
+1GU7_A,364,2,the others,Low,the others,Low,the others,97,0.480,0.717,0.434,0.400,0.011,0.105
+1HM9_B,468,2,the others,Low,the others,Middle,the others,150,0.751,0.913,0.743,0.638,0.004,0.062
+1K5N_A,276,2,the others,High,the others,High,the others,150,0.925,0.998,0.929,0.798,0.002,0.039
+1L3K_A,196,2,multi top,High,the others,High,the others,150,0.536,1.000,0.441,0.400,0.038,0.196
+1LC5_A,364,2,the others,Low,multi top,Low,the others,150,0.619,0.786,0.617,0.447,0.004,0.064
+1R6D_A,337,2,the others,Low,the others,Middle,the others,150,0.755,0.923,0.745,0.633,0.004,0.065
+1RKX_A,357,2,top,Middle,top,High,the others,150,0.578,0.914,0.581,0.455,0.006,0.077
+1SVS_A,353,2,the others,High,the others,High,the others,150,0.868,0.998,0.881,0.668,0.005,0.072
+1VI0_A,206,2,top,High,top,High,the others,150,0.623,0.995,0.602,0.402,0.015,0.121
+1X8B_A,289,2,multi top,Middle,multi top,Middle,the others,150,0.689,0.923,0.691,0.516,0.007,0.086
+1YQD_A,366,2,multi top,Middle,multi top,High,the others,150,0.741,0.984,0.719,0.563,0.013,0.112
+1ZAR_A,282,3,the others,Low,the others,Low,the others,100,0.567,0.707,0.589,0.417,0.007,0.084
+2BHU_A,602,3,the others,Low,the others,Low,multi top,125,0.628,0.767,0.694,0.400,0.018,0.133
+2CDC_B,366,2,the others,Low,multi top,Low,the others,150,0.522,0.818,0.508,0.400,0.010,0.102
+2DKJ_A,407,2,the others,Middle,the others,Middle,the others,150,0.874,0.950,0.902,0.665,0.004,0.062
+2HEU_A,401,2,multi top,High,multi top,High,the others,116,0.466,0.965,0.416,0.400,0.023,0.151
+2IBD_A,204,2,multi top,Middle,multi top,Middle,the others,150,0.554,0.874,0.514,0.403,0.016,0.125
+2IZR_A,330,2,multi top,High,multi top,High,the others,150,0.752,0.934,0.834,0.419,0.029,0.171
+2JHF_B,374,2,multi top,High,multi top,High,the others,150,0.772,0.995,0.866,0.514,0.027,0.165
+2W8T_A,427,2,top,Middle,top,High,the others,150,0.661,0.974,0.698,0.401,0.020,0.141
+2WSD_A,513,3,the others,Low,the others,Low,the others,150,0.557,0.749,0.542,0.402,0.015,0.122
+2XXG_A,336,2,the others,Middle,the others,High,the others,92,0.662,0.975,0.671,0.401,0.031,0.176
+3A09_A,490,2,the others,Middle,the others,High,the others,61,0.624,0.967,0.682,0.401,0.038,0.195
+3AJ7_A,589,3,the others,Low,the others,Middle,the others,150,0.633,0.817,0.658,0.411,0.018,0.134
+3AML_A,755,3,multi top,High,multi top,High,the others,150,0.608,0.963,0.553,0.405,0.019,0.139
+3DK9_A,478,3,the others,Middle,the others,Middle,the others,150,0.825,0.923,0.837,0.711,0.003,0.056
+3G7Q_A,417,2,multi top,Low,multi top,Middle,the others,150,0.536,0.863,0.523,0.414,0.010,0.098
+3IJL_A,338,2,the others,Low,the others,Low,the others,150,0.614,0.769,0.590,0.519,0.004,0.066
+3K6Y_A,237,2,multi top,High,multi top,High,the others,150,0.560,0.830,0.551,0.404,0.010,0.099
+3KGW_A,393,2,multi top,Middle,multi top,High,the others,150,0.726,0.949,0.717,0.451,0.028,0.167
+3KLK_A,1039,3,multi top,Middle,multi top,High,the others,150,0.698,0.803,0.689,0.613,0.002,0.039
+3LYP_B,215,2,multi top,Middle,multi top,High,the others,150,0.767,0.985,0.745,0.478,0.014,0.117
+3NA5_A,570,4,top,High,top,High,the others,150,0.490,0.994,0.460,0.400,0.013,0.115
+3NYT_A,367,2,the others,Low,multi top,Middle,the others,150,0.788,0.920,0.796,0.404,0.010,0.099
+3P2T_A,196,2,top,Middle,the others,Middle,the others,150,0.611,0.741,0.613,0.450,0.004,0.062
+3PFG_A,263,2,multi top,Middle,multi top,Middle,the others,150,0.563,0.924,0.483,0.405,0.028,0.168
+3PIU_A,435,2,multi top,Middle,multi top,Middle,the others,150,0.569,0.934,0.550,0.431,0.012,0.109
+3PJ0_A,359,2,top,Middle,top,Middle,top,140,0.526,0.949,0.516,0.414,0.008,0.088
+3PPL_A,427,2,top,Middle,multi top,High,the others,150,0.522,0.954,0.456,0.401,0.026,0.162
+3QGU_B,449,2,the others,Middle,the others,Middle,the others,150,0.643,0.939,0.588,0.481,0.017,0.132
+3R2Q_A,202,2,multi top,Low,multi top,Middle,the others,150,0.659,0.898,0.652,0.444,0.008,0.092
+3SQZ_A,425,2,the others,Low,the others,Middle,the others,150,0.697,0.903,0.737,0.401,0.021,0.145
+3UCQ_A,655,4,top,Middle,top,High,the others,67,0.551,0.819,0.416,0.401,0.031,0.177
+3V4C_A,528,2,multi top,Low,multi top,Low,the others,150,0.539,0.874,0.530,0.401,0.010,0.098
+3VQT_A,548,3,the others,Middle,the others,Middle,the others,150,0.480,0.900,0.430,0.402,0.016,0.125
+3VRD_B,401,3,top,High,top,High,the others,150,0.505,0.933,0.474,0.401,0.017,0.132
+3WS7_A,306,2,top,High,top,High,the others,150,0.659,0.957,0.676,0.471,0.014,0.120
+4A5S_A,740,2,the others,High,the others,High,the others,150,0.660,0.975,0.635,0.409,0.032,0.178
+4BVX_A,215,2,top,High,top,High,top,145,0.483,0.959,0.472,0.409,0.008,0.092
+4C08_A,382,2,multi top,High,multi top,High,the others,150,0.707,0.975,0.753,0.400,0.020,0.140
+4C3S_A,445,2,multi top,Middle,multi top,Middle,the others,150,0.567,0.925,0.543,0.429,0.011,0.104
+4CFS_A,287,2,top,High,top,High,the others,140,0.564,1.000,0.504,0.402,0.029,0.171
+4D5C_A,206,2,multi top,High,multi top,High,the others,150,0.756,0.963,0.808,0.402,0.021,0.146
+4DCU_A,456,3,top,High,top,High,the others,70,0.499,0.984,0.470,0.419,0.019,0.137
+4EQ9_A,246,2,top,Middle,top,Middle,the others,150,0.615,0.934,0.648,0.429,0.011,0.107
+4EQB_A,330,2,multi top,Middle,multi top,Middle,the others,150,0.561,0.843,0.504,0.400,0.016,0.125
+4EQS_A,437,3,the others,Low,the others,Low,the others,150,0.655,0.828,0.707,0.402,0.016,0.127
+4EUO_A,320,2,multi top,Middle,multi top,Middle,the others,150,0.538,0.779,0.514,0.400,0.013,0.115
+4G68_A,456,2,the others,Low,the others,Low,the others,150,0.515,0.729,0.537,0.405,0.005,0.072
+4G8T_A,464,2,the others,High,the others,High,the others,150,0.729,0.999,0.863,0.400,0.051,0.226
+4H27_A,364,2,multi top,Middle,multi top,High,the others,150,0.651,0.928,0.634,0.481,0.011,0.105
+4HVK_A,382,2,the others,Low,the others,Middle,the others,150,0.711,0.903,0.697,0.449,0.015,0.121
+4I8H_A,223,2,the others,High,the others,High,the others,150,0.900,0.983,0.904,0.719,0.003,0.051
+4IW9_A,231,2,the others,Low,the others,Low,the others,150,0.621,0.798,0.606,0.431,0.006,0.074
+4JBE_A,445,2,the others,Low,the others,Low,the others,75,0.546,0.774,0.439,0.400,0.022,0.147
+4JN7_A,395,2,the others,Low,the others,Low,the others,150,0.665,0.749,0.668,0.591,0.001,0.036
+4KQP_A,232,2,the others,Middle,the others,Middle,the others,150,0.704,0.950,0.699,0.458,0.016,0.126
+4LJ6_A,339,2,multi top,High,multi top,High,the others,150,0.640,0.837,0.661,0.411,0.013,0.113
+4MF5_A,256,2,multi top,Middle,multi top,High,the others,150,0.718,0.957,0.745,0.546,0.009,0.095
+4NTC_A,335,2,multi top,Low,multi top,Low,the others,150,0.561,0.842,0.551,0.402,0.010,0.102
+4PQH_A,236,2,top,Middle,top,High,multi top,150,0.602,0.924,0.596,0.452,0.006,0.076
+4R6H_A,428,2,multi top,Middle,multi top,Middle,the others,77,0.468,0.720,0.426,0.400,0.010,0.099
+4RD4_A,415,3,the others,Middle,the others,Middle,the others,150,0.638,0.901,0.653,0.406,0.013,0.114
+4RY1_A,411,2,the others,Low,the others,Middle,the others,150,0.511,0.813,0.464,0.402,0.014,0.119
+4TMX_A,345,2,the others,Middle,the others,High,the others,121,0.675,0.784,0.697,0.401,0.007,0.081
+4U19_A,276,2,top,High,top,High,the others,150,0.657,0.946,0.627,0.533,0.009,0.097
+4WLH_A,422,2,multi top,Middle,multi top,Middle,the others,150,0.672,0.921,0.672,0.409,0.009,0.093
+4WPG_A,289,2,the others,Low,multi top,Low,the others,150,0.642,0.840,0.628,0.417,0.009,0.096
+4XH2_G,228,2,the others,High,the others,High,the others,150,0.738,0.934,0.723,0.589,0.011,0.104
+4YI8_A,201,2,the others,High,the others,High,the others,150,0.646,0.952,0.635,0.415,0.016,0.125
+4YKI_A,256,2,top,Low,top,Middle,the others,150,0.742,0.913,0.797,0.449,0.014,0.119
+4YUC_A,335,2,top,High,top,High,the others,150,0.651,0.939,0.666,0.517,0.006,0.078
+5DP2_A,342,2,multi top,Middle,multi top,High,the others,150,0.663,0.902,0.640,0.504,0.010,0.100
+5DVI_A,419,2,multi top,Low,multi top,Middle,the others,102,0.519,0.909,0.448,0.408,0.023,0.150
+5FS8_A,515,3,multi top,High,multi top,High,multi top,150,0.537,0.973,0.499,0.401,0.022,0.149
+5GXE_A,331,2,the others,Middle,the others,Middle,the others,150,0.608,0.919,0.580,0.415,0.016,0.126
+5ICQ_A,610,2,the others,Low,the others,Middle,the others,55,0.496,0.825,0.430,0.401,0.023,0.151
+5IPY_A,453,2,the others,Middle,the others,Middle,the others,80,0.711,0.978,0.608,0.514,0.036,0.189
+5JRY_A,485,2,multi top,High,multi top,High,the others,150,0.793,0.992,0.785,0.586,0.004,0.064
+5K7F_A,231,2,the others,Low,the others,Low,multi top,150,0.588,0.725,0.603,0.404,0.003,0.059
+5U3A_A,496,2,the others,High,the others,High,the others,150,0.683,0.999,0.770,0.401,0.052,0.228
+5V8S_A,410,2,the others,Low,the others,Low,the others,109,0.620,0.713,0.645,0.436,0.005,0.073
+5WJP_A,249,2,multi top,Low,multi top,Middle,the others,150,0.586,0.707,0.568,0.501,0.003,0.050
+5Y9Z_A,199,2,the others,High,the others,High,the others,150,0.760,0.992,0.725,0.641,0.007,0.085
+6D0A_A,431,2,the others,Low,the others,Low,the others,150,0.585,0.740,0.571,0.455,0.006,0.076
+6FME_B,506,3,the others,Low,the others,Low,the others,146,0.524,0.720,0.506,0.420,0.007,0.083
+6G7N_A,318,2,multi top,Middle,multi top,Middle,the others,150,0.615,0.947,0.604,0.400,0.016,0.127
+6HOA_A,228,2,the others,High,the others,High,the others,138,0.575,1.000,0.510,0.406,0.030,0.174
+6RI6_A,498,3,top,Middle,the others,High,the others,150,0.869,0.991,0.957,0.432,0.025,0.157
