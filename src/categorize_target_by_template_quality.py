@@ -38,7 +38,7 @@ def categorize_by_label_distribution(group: pd.DataFrame,
 
 def categorize_by_max_quality_template(group: pd.DataFrame,
                                        label: str = 'identity(%)',
-                                       threshold_list: List = [0.5, 0.8]) -> str:
+                                       threshold_list: List = [0.4, 0.6, 0.8]) -> str:
     """Classify category that based on maximum value of the label
 
     Args:
@@ -49,15 +49,27 @@ def categorize_by_max_quality_template(group: pd.DataFrame,
     Returns:
         str: The name of the category.
     """
-    assert len(threshold_list) == 2
     max_quality = group[label].max()
-    NAME_CATEGORY = ['High', 'Middle', 'Low']
-    if threshold_list[1] <= max_quality:
-        return NAME_CATEGORY[0]
-    elif threshold_list[0] <= max_quality < threshold_list[1]:
-        return NAME_CATEGORY[1]
+    if len(threshold_list) == 2:
+        NAME_CATEGORY = ['Low', 'Middle', 'High']
+        if max_quality < threshold_list[0]:
+            return NAME_CATEGORY[0]
+        elif max_quality < threshold_list[1]:
+            return NAME_CATEGORY[1]
+        else:
+            return NAME_CATEGORY[2]
+    elif len(threshold_list) == 3:
+        NAME_CATEGORY = ['Low', 'Mid-low', 'Mid-high', 'High']
+        if max_quality < threshold_list[0]:
+            return NAME_CATEGORY[0]
+        elif max_quality < threshold_list[1]:
+            return NAME_CATEGORY[1]
+        elif max_quality < threshold_list[2]:
+            return NAME_CATEGORY[2]
+        else:
+            return NAME_CATEGORY[3]
     else:
-        return NAME_CATEGORY[2]
+        raise ValueError('threshold_list should be 2 or 3')
 
 
 def categorize_by_label(template_df: pd.DataFrame,
@@ -117,7 +129,7 @@ def categorize_target(tmscore_df: pd.DataFrame) -> pd.DataFrame:
     category_df_list = []
     for label in labels:
         if 'identity' in label:
-            max_value_threshold_list = [0.5, 0.8]
+            max_value_threshold_list = [0.4, 0.6, 0.8]
         elif 'positive' in label:
             max_value_threshold_list = [0.6, 0.8]
         else:
@@ -162,7 +174,7 @@ def main():
     final_df = final_df.rename({'target': 'Target', 'seq_len': 'Length'}, axis=1).set_index('Target')
     print(final_df)
     # save
-    output_path = tmscore_path.parent / 'target_list_fixed.csv'
+    output_path = tmscore_path.parent / 'target_list.csv'
     final_df.to_csv(output_path, float_format='%.3f')
 
 

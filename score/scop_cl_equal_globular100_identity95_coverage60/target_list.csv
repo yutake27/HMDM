@@ -1,101 +1,101 @@
 Target,Length,Class,identity_dist_category,identity_quality_category,positive_dist_category,positive_quality_category,coverage_dist_category,Num models,mean GDT_TS,max GDT_TS,med GDT_TS,min GDT_TS,var GDT_TS,std GDT_TS
-1AYZ_A,153,alpha + beta,multi top,Middle,multi top,High,the others,150,0.841,0.931,0.845,0.657,0.002,0.046
+1AYZ_A,153,alpha + beta,multi top,Mid-high,multi top,High,the others,150,0.841,0.931,0.845,0.657,0.002,0.046
 1AZ5_A,99,All beta,multi top,High,multi top,High,the others,150,0.905,0.960,0.907,0.864,0.000,0.019
 1BQU_A,115,All beta,multi top,High,multi top,High,the others,150,0.659,0.947,0.646,0.454,0.012,0.111
 1DE4_A,178,alpha + beta,the others,Low,the others,Low,the others,150,0.751,0.806,0.750,0.664,0.000,0.019
-1EA9_C,382,alpha / beta,the others,Middle,the others,Middle,the others,150,0.765,0.947,0.782,0.590,0.010,0.100
+1EA9_C,382,alpha / beta,the others,Mid-high,the others,Middle,the others,150,0.765,0.947,0.782,0.590,0.010,0.100
 1EXR_A,146,All alpha,the others,High,the others,High,the others,150,0.499,0.781,0.500,0.402,0.003,0.058
-1F2E_A,121,All alpha,multi top,Middle,multi top,High,the others,150,0.761,0.979,0.746,0.506,0.010,0.101
+1F2E_A,121,All alpha,multi top,Mid-high,multi top,High,the others,150,0.761,0.979,0.746,0.506,0.010,0.101
 1G4I_A,123,All alpha,the others,High,the others,High,the others,150,0.871,0.965,0.880,0.740,0.003,0.053
 1HAG_E,295,All beta,the others,High,the others,High,multi top,150,0.673,0.780,0.703,0.558,0.004,0.059
 1HTA_A,68,All alpha,multi top,High,multi top,High,the others,150,0.736,0.956,0.737,0.570,0.007,0.082
-1HV5_A,161,alpha + beta,the others,Middle,the others,Middle,the others,77,0.718,0.862,0.758,0.401,0.020,0.140
+1HV5_A,161,alpha + beta,the others,Mid-low,the others,Middle,the others,77,0.718,0.862,0.758,0.401,0.020,0.140
 1I0D_A,331,alpha / beta,the others,High,the others,High,the others,131,0.781,0.999,0.751,0.418,0.022,0.149
-1I4K_A,72,All beta,multi top,Middle,multi top,High,the others,150,0.877,0.976,0.875,0.781,0.002,0.042
-1IFV_A,155,alpha + beta,top,Middle,multi top,High,the others,150,0.734,0.889,0.760,0.405,0.011,0.102
-1IRU_I,220,alpha + beta,the others,Middle,the others,Middle,the others,150,0.796,0.925,0.782,0.624,0.006,0.077
+1I4K_A,72,All beta,multi top,Mid-high,multi top,High,the others,150,0.877,0.976,0.875,0.781,0.002,0.042
+1IFV_A,155,alpha + beta,top,Mid-high,multi top,High,the others,150,0.734,0.889,0.760,0.405,0.011,0.102
+1IRU_I,220,alpha + beta,the others,Mid-low,the others,Middle,the others,150,0.796,0.925,0.782,0.624,0.006,0.077
 1K28_A,216,alpha + beta,multi top,High,multi top,High,multi top,150,0.615,0.770,0.627,0.512,0.004,0.059
-1KA9_F,251,alpha / beta,multi top,Middle,the others,High,the others,145,0.767,0.957,0.781,0.520,0.022,0.147
+1KA9_F,251,alpha / beta,multi top,Mid-high,the others,High,the others,145,0.767,0.957,0.781,0.520,0.022,0.147
 1KWF_A,363,All alpha,the others,Low,multi top,Low,the others,150,0.566,0.778,0.565,0.404,0.007,0.081
 1OH0_A,125,alpha + beta,multi top,High,multi top,High,the others,150,0.720,0.932,0.695,0.422,0.018,0.135
-1OHE_A,182,alpha / beta,multi top,Low,multi top,Low,multi top,150,0.547,0.844,0.561,0.403,0.010,0.100
-1OTJ_A,281,All beta,multi top,Middle,multi top,Middle,the others,150,0.728,0.835,0.752,0.422,0.010,0.099
-1QNI_A,131,All beta,the others,Middle,the others,High,the others,120,0.538,0.991,0.466,0.401,0.028,0.167
-1RE5_A,448,All alpha,multi top,Low,multi top,Middle,the others,150,0.611,0.926,0.608,0.435,0.016,0.126
+1OHE_A,182,alpha / beta,multi top,Mid-low,multi top,Low,multi top,150,0.547,0.844,0.561,0.403,0.010,0.100
+1OTJ_A,281,All beta,multi top,Mid-low,multi top,Middle,the others,150,0.728,0.835,0.752,0.422,0.010,0.099
+1QNI_A,131,All beta,the others,Mid-high,the others,High,the others,120,0.538,0.991,0.466,0.401,0.028,0.167
+1RE5_A,448,All alpha,multi top,Mid-low,multi top,Middle,the others,150,0.611,0.926,0.608,0.435,0.016,0.126
 1RHF_A,91,All beta,the others,Low,multi top,Middle,the others,150,0.627,0.767,0.631,0.411,0.006,0.078
 1RSY_A,126,All beta,top,High,multi top,High,the others,150,0.817,0.952,0.816,0.615,0.006,0.080
-1RT8_A,102,All alpha,multi top,Middle,multi top,Middle,the others,150,0.724,0.919,0.739,0.529,0.006,0.080
-1S3J_A,66,alpha + beta,the others,Low,multi top,Middle,the others,150,0.860,0.961,0.867,0.590,0.004,0.059
-1ST9_A,113,alpha / beta,top,Low,top,Middle,the others,150,0.733,0.982,0.754,0.440,0.007,0.086
-1TW4_A,125,All beta,multi top,Middle,multi top,High,the others,150,0.810,0.964,0.804,0.648,0.003,0.054
-1UB7_A,172,alpha / beta,the others,Low,the others,Middle,the others,150,0.814,0.909,0.850,0.646,0.006,0.078
-1UTI_A,57,All beta,the others,Middle,the others,Middle,the others,150,0.898,0.969,0.908,0.469,0.004,0.067
-1V2F_A,368,alpha / beta,the others,Low,the others,Low,the others,150,0.734,0.825,0.743,0.601,0.003,0.056
+1RT8_A,102,All alpha,multi top,Mid-low,multi top,Middle,the others,150,0.724,0.919,0.739,0.529,0.006,0.080
+1S3J_A,66,alpha + beta,the others,Mid-low,multi top,Middle,the others,150,0.860,0.961,0.867,0.590,0.004,0.059
+1ST9_A,113,alpha / beta,top,Mid-low,top,Middle,the others,150,0.733,0.982,0.754,0.440,0.007,0.086
+1TW4_A,125,All beta,multi top,Mid-high,multi top,High,the others,150,0.810,0.964,0.804,0.648,0.003,0.054
+1UB7_A,172,alpha / beta,the others,Mid-low,the others,Middle,the others,150,0.814,0.909,0.850,0.646,0.006,0.078
+1UTI_A,57,All beta,the others,Mid-low,the others,Middle,the others,150,0.898,0.969,0.908,0.469,0.004,0.067
+1V2F_A,368,alpha / beta,the others,Mid-low,the others,Low,the others,150,0.734,0.825,0.743,0.601,0.003,0.056
 1V70_A,105,All beta,the others,Low,multi top,Low,multi top,150,0.620,0.741,0.621,0.481,0.003,0.052
 1VLK_A,142,All alpha,the others,High,the others,High,the others,95,0.554,0.849,0.555,0.405,0.018,0.133
 1W8O_A,356,All beta,the others,Low,the others,Low,the others,122,0.608,0.742,0.643,0.405,0.010,0.102
-1WLU_A,116,alpha + beta,multi top,Low,multi top,Middle,the others,150,0.775,0.927,0.794,0.489,0.010,0.100
-1XWN_A,166,All beta,multi top,Middle,multi top,Middle,the others,150,0.711,0.756,0.712,0.664,0.000,0.014
-1YR0_A,163,alpha + beta,multi top,Middle,multi top,Middle,the others,150,0.755,0.986,0.730,0.517,0.019,0.138
-2B5A_A,77,All alpha,multi top,Low,the others,Low,the others,150,0.776,0.912,0.792,0.597,0.006,0.078
-2BWJ_A,192,alpha + beta,the others,Middle,the others,Middle,the others,150,0.673,0.875,0.644,0.591,0.004,0.064
-2C21_A,139,alpha + beta,the others,Low,the others,Middle,the others,150,0.650,0.838,0.634,0.439,0.014,0.118
+1WLU_A,116,alpha + beta,multi top,Mid-low,multi top,Middle,the others,150,0.775,0.927,0.794,0.489,0.010,0.100
+1XWN_A,166,All beta,multi top,Mid-high,multi top,Middle,the others,150,0.711,0.756,0.712,0.664,0.000,0.014
+1YR0_A,163,alpha + beta,multi top,Mid-high,multi top,Middle,the others,150,0.755,0.986,0.730,0.517,0.019,0.138
+2B5A_A,77,All alpha,multi top,Mid-low,the others,Low,the others,150,0.776,0.912,0.792,0.597,0.006,0.078
+2BWJ_A,192,alpha + beta,the others,Mid-low,the others,Middle,the others,150,0.673,0.875,0.644,0.591,0.004,0.064
+2C21_A,139,alpha + beta,the others,Mid-low,the others,Middle,the others,150,0.650,0.838,0.634,0.439,0.014,0.118
 2CNW_D,191,alpha / beta,multi top,High,multi top,High,the others,150,0.848,0.980,0.842,0.679,0.005,0.069
-2CYB_B,320,alpha / beta,the others,Middle,the others,Middle,the others,150,0.647,0.834,0.706,0.419,0.020,0.140
-2D9Y_A,104,All beta,multi top,Middle,multi top,Middle,the others,150,0.695,0.856,0.700,0.486,0.007,0.081
+2CYB_B,320,alpha / beta,the others,Mid-low,the others,Middle,the others,150,0.647,0.834,0.706,0.419,0.020,0.140
+2D9Y_A,104,All beta,multi top,Mid-low,multi top,Middle,the others,150,0.695,0.856,0.700,0.486,0.007,0.081
 2DKF_A,431,alpha + beta,the others,Low,the others,Low,the others,150,0.573,0.725,0.607,0.429,0.010,0.098
 2DS4_A,106,All beta,the others,Low,the others,Low,the others,150,0.655,0.811,0.652,0.554,0.003,0.050
-2DYK_A,161,alpha / beta,the others,Low,the others,Middle,the others,150,0.661,0.823,0.660,0.485,0.006,0.076
+2DYK_A,161,alpha / beta,the others,Mid-low,the others,Middle,the others,150,0.661,0.823,0.660,0.485,0.006,0.076
 2F2H_A,80,All beta,top,High,top,High,the others,150,0.830,0.978,0.847,0.484,0.005,0.073
 2GH9_A,378,alpha / beta,the others,Low,multi top,Low,the others,150,0.639,0.794,0.665,0.427,0.008,0.089
 2HSZ_A,224,alpha / beta,the others,Low,the others,Low,the others,150,0.605,0.771,0.603,0.406,0.007,0.084
-2I2Y_A,86,alpha + beta,multi top,Middle,multi top,Middle,the others,150,0.723,0.817,0.727,0.558,0.002,0.046
-2MR9_A,40,All alpha,the others,Low,the others,Low,the others,90,0.815,0.906,0.812,0.700,0.002,0.049
-2P6R_A,202,alpha / beta,multi top,Middle,multi top,Middle,the others,150,0.598,0.771,0.585,0.477,0.005,0.068
-2UUB_E,81,alpha + beta,the others,Middle,the others,Middle,the others,150,0.866,0.985,0.856,0.725,0.003,0.059
+2I2Y_A,86,alpha + beta,multi top,Mid-high,multi top,Middle,the others,150,0.723,0.817,0.727,0.558,0.002,0.046
+2MR9_A,40,All alpha,the others,Mid-low,the others,Low,the others,90,0.815,0.906,0.812,0.700,0.002,0.049
+2P6R_A,202,alpha / beta,multi top,Mid-low,multi top,Middle,the others,150,0.598,0.771,0.585,0.477,0.005,0.068
+2UUB_E,81,alpha + beta,the others,Mid-low,the others,Middle,the others,150,0.866,0.985,0.856,0.725,0.003,0.059
 2UUB_Q,104,All beta,multi top,High,multi top,High,multi top,150,0.665,0.921,0.651,0.546,0.006,0.079
 2V2F_F,384,alpha + beta,multi top,High,multi top,High,the others,150,0.554,0.972,0.520,0.403,0.017,0.130
-2V90_C,93,All beta,the others,Middle,the others,Middle,the others,150,0.806,0.908,0.829,0.611,0.004,0.065
-2VKE_A,162,All alpha,multi top,Middle,the others,Middle,the others,114,0.661,0.918,0.616,0.479,0.019,0.137
+2V90_C,93,All beta,the others,Mid-low,the others,Middle,the others,150,0.806,0.908,0.829,0.611,0.004,0.065
+2VKE_A,162,All alpha,multi top,Mid-high,the others,Middle,the others,114,0.661,0.918,0.616,0.479,0.019,0.137
 2WP2_B,110,All alpha,multi top,High,the others,High,the others,150,0.860,0.993,0.849,0.718,0.005,0.068
-2YV3_A,328,alpha / beta,the others,Low,the others,Middle,the others,150,0.679,0.895,0.698,0.401,0.023,0.150
-2ZJR_H,134,All beta,multi top,Middle,the others,Middle,the others,150,0.781,0.925,0.763,0.580,0.007,0.081
+2YV3_A,328,alpha / beta,the others,Mid-low,the others,Middle,the others,150,0.679,0.895,0.698,0.401,0.023,0.150
+2ZJR_H,134,All beta,multi top,Mid-high,the others,Middle,the others,150,0.781,0.925,0.763,0.580,0.007,0.081
 3CRN_A,121,alpha / beta,the others,Low,the others,Low,the others,150,0.809,0.916,0.832,0.461,0.007,0.086
-3DMI_A,87,All alpha,the others,Middle,the others,Middle,the others,150,0.789,0.983,0.862,0.402,0.023,0.152
-3GFO_A,222,alpha / beta,the others,Low,the others,Middle,the others,150,0.708,0.812,0.718,0.570,0.002,0.049
-3GM8_A,158,All beta,the others,Low,the others,Middle,the others,150,0.759,0.926,0.749,0.514,0.011,0.103
-3HRX_A,254,alpha / beta,multi top,Low,the others,Middle,the others,150,0.769,0.891,0.768,0.664,0.002,0.041
-3JAI_SS,137,All alpha,the others,Middle,multi top,High,the others,150,0.668,0.936,0.693,0.411,0.019,0.139
-3JB4_B,166,All beta,multi top,Middle,multi top,Middle,the others,150,0.701,0.955,0.711,0.408,0.013,0.116
-3M0G_A,283,All alpha,top,Middle,multi top,Middle,the others,150,0.795,0.959,0.793,0.657,0.003,0.055
-3O1D_A,298,All alpha,the others,Middle,the others,Middle,the others,150,0.675,0.973,0.644,0.502,0.017,0.130
-3RHH_C,476,alpha / beta,multi top,Middle,multi top,Middle,the others,150,0.795,0.952,0.794,0.632,0.003,0.057
+3DMI_A,87,All alpha,the others,Mid-low,the others,Middle,the others,150,0.789,0.983,0.862,0.402,0.023,0.152
+3GFO_A,222,alpha / beta,the others,Mid-low,the others,Middle,the others,150,0.708,0.812,0.718,0.570,0.002,0.049
+3GM8_A,158,All beta,the others,Mid-low,the others,Middle,the others,150,0.759,0.926,0.749,0.514,0.011,0.103
+3HRX_A,254,alpha / beta,multi top,Mid-low,the others,Middle,the others,150,0.769,0.891,0.768,0.664,0.002,0.041
+3JAI_SS,137,All alpha,the others,Mid-high,multi top,High,the others,150,0.668,0.936,0.693,0.411,0.019,0.139
+3JB4_B,166,All beta,multi top,Mid-low,multi top,Middle,the others,150,0.701,0.955,0.711,0.408,0.013,0.116
+3M0G_A,283,All alpha,top,Mid-high,multi top,Middle,the others,150,0.795,0.959,0.793,0.657,0.003,0.055
+3O1D_A,298,All alpha,the others,Mid-high,the others,Middle,the others,150,0.675,0.973,0.644,0.502,0.017,0.130
+3RHH_C,476,alpha / beta,multi top,Mid-low,multi top,Middle,the others,150,0.795,0.952,0.794,0.632,0.003,0.057
 3TJ3_A,426,All alpha,top,High,top,High,the others,150,0.763,0.927,0.846,0.404,0.026,0.160
 4EFH_A,227,alpha / beta,the others,High,the others,High,the others,150,0.836,0.992,0.906,0.401,0.024,0.154
-4EQF_A,312,All alpha,the others,Middle,the others,Middle,the others,81,0.788,0.915,0.765,0.400,0.009,0.096
-4G12_A,44,All alpha,the others,Low,the others,Middle,the others,150,0.873,0.938,0.875,0.773,0.001,0.027
-4HRR_H,150,All alpha,multi top,Middle,multi top,Middle,the others,150,0.647,0.903,0.627,0.522,0.006,0.078
+4EQF_A,312,All alpha,the others,Mid-low,the others,Middle,the others,81,0.788,0.915,0.765,0.400,0.009,0.096
+4G12_A,44,All alpha,the others,Mid-low,the others,Middle,the others,150,0.873,0.938,0.875,0.773,0.001,0.027
+4HRR_H,150,All alpha,multi top,Mid-low,multi top,Middle,the others,150,0.647,0.903,0.627,0.522,0.006,0.078
 4IOP_B,121,alpha + beta,the others,Low,the others,Low,the others,150,0.787,0.884,0.800,0.622,0.004,0.064
-4KE6_E,246,alpha / beta,top,Middle,top,High,the others,150,0.659,0.997,0.587,0.460,0.022,0.149
-4M1Q_B,312,alpha / beta,multi top,Middle,the others,Middle,the others,150,0.830,0.919,0.829,0.741,0.001,0.035
-4NBU_B,243,alpha / beta,the others,Middle,the others,Middle,the others,150,0.871,0.963,0.882,0.717,0.003,0.052
-4NYN_A,133,alpha / beta,the others,Low,multi top,Low,the others,150,0.585,0.906,0.559,0.419,0.014,0.116
+4KE6_E,246,alpha / beta,top,Mid-high,top,High,the others,150,0.659,0.997,0.587,0.460,0.022,0.149
+4M1Q_B,312,alpha / beta,multi top,Mid-high,the others,Middle,the others,150,0.830,0.919,0.829,0.741,0.001,0.035
+4NBU_B,243,alpha / beta,the others,Mid-low,the others,Middle,the others,150,0.871,0.963,0.882,0.717,0.003,0.052
+4NYN_A,133,alpha / beta,the others,Mid-low,multi top,Low,the others,150,0.585,0.906,0.559,0.419,0.014,0.116
 4PNE_B,270,alpha / beta,multi top,Low,multi top,Low,the others,150,0.547,0.752,0.529,0.411,0.007,0.084
-4RM4_A,375,All alpha,the others,Low,the others,Middle,the others,150,0.747,0.894,0.730,0.636,0.003,0.057
-4V52_BC,147,All beta,multi top,Middle,multi top,High,the others,150,0.641,0.872,0.649,0.449,0.009,0.093
+4RM4_A,375,All alpha,the others,Mid-low,the others,Middle,the others,150,0.747,0.894,0.730,0.636,0.003,0.057
+4V52_BC,147,All beta,multi top,Mid-high,multi top,High,the others,150,0.641,0.872,0.649,0.449,0.009,0.093
 4WE5_A,321,All beta,the others,High,the others,High,the others,150,0.788,0.972,0.718,0.631,0.013,0.115
-4ZPL_A,107,All beta,the others,Low,the others,Middle,the others,150,0.871,0.946,0.892,0.734,0.003,0.052
+4ZPL_A,107,All beta,the others,Mid-low,the others,Middle,the others,150,0.871,0.946,0.892,0.734,0.003,0.052
 5CZJ_B,319,alpha / beta,multi top,High,multi top,High,the others,150,0.593,0.998,0.559,0.413,0.017,0.131
-5DE0_C,135,alpha + beta,the others,Middle,the others,Middle,the others,150,0.785,0.954,0.769,0.404,0.015,0.121
+5DE0_C,135,alpha + beta,the others,Mid-low,the others,Middle,the others,150,0.785,0.954,0.769,0.404,0.015,0.121
 5GJH_A,95,alpha + beta,top,High,top,High,the others,150,0.759,0.958,0.747,0.508,0.008,0.092
-5JP5_A,134,All beta,multi top,Middle,multi top,Middle,the others,150,0.879,0.996,0.918,0.612,0.008,0.087
+5JP5_A,134,All beta,multi top,Mid-high,multi top,Middle,the others,150,0.879,0.996,0.918,0.612,0.008,0.087
 5JT8_A,310,alpha + beta,the others,Low,the others,Low,the others,150,0.637,0.744,0.653,0.532,0.004,0.060
 5V93_o,87,All alpha,multi top,High,multi top,High,the others,150,0.761,0.954,0.828,0.422,0.025,0.159
-5XX9_B,157,All alpha,multi top,Middle,multi top,High,the others,150,0.817,0.986,0.770,0.584,0.015,0.120
-5Y4E_A,219,alpha + beta,the others,Low,the others,Middle,the others,150,0.624,0.874,0.607,0.486,0.012,0.110
-6CD6_A,287,alpha + beta,multi top,Middle,multi top,High,the others,150,0.736,0.963,0.745,0.515,0.010,0.098
+5XX9_B,157,All alpha,multi top,Mid-high,multi top,High,the others,150,0.817,0.986,0.770,0.584,0.015,0.120
+5Y4E_A,219,alpha + beta,the others,Mid-low,the others,Middle,the others,150,0.624,0.874,0.607,0.486,0.012,0.110
+6CD6_A,287,alpha + beta,multi top,Mid-high,multi top,High,the others,150,0.736,0.963,0.745,0.515,0.010,0.098
 6K9F_B,87,All alpha,the others,Low,the others,Low,the others,150,0.775,0.919,0.825,0.402,0.013,0.112
-6KNA_A,76,alpha + beta,the others,Middle,the others,High,the others,150,0.697,0.757,0.706,0.556,0.001,0.036
+6KNA_A,76,alpha + beta,the others,Mid-high,the others,High,the others,150,0.697,0.757,0.706,0.556,0.001,0.036
 6KWQ_A,462,alpha + beta,top,High,top,High,the others,150,0.841,0.976,0.894,0.458,0.016,0.125
 6O8W_g,154,All alpha,multi top,High,multi top,High,the others,150,0.746,0.881,0.753,0.563,0.006,0.076
-6SPF_T,94,alpha + beta,multi top,Middle,the others,Middle,the others,150,0.756,0.936,0.761,0.572,0.009,0.093
+6SPF_T,94,alpha + beta,multi top,Mid-low,the others,Middle,the others,150,0.756,0.936,0.761,0.572,0.009,0.093
